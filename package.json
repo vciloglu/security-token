@@ -14,7 +14,7 @@
   "author": "vciloglu@diginity.com",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.24.0",
-    "crypto-js": "^4.1.1"
+    "crypto-js": "^4.1.1",
+    "sync-request": "^6.1.0"
   }
 }
