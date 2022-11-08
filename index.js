@@ -63,7 +63,7 @@ const SecurityManager = {
   },
   async getIp() {
     const { data } = await Axios.get(this.ipUrl);
-    return data;
+    return data.trim();
   },
 };
 
