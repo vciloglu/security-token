@@ -16,7 +16,7 @@ const SecurityManager = {
     if ((username, password)) {
       this.logout();
     }
-
+    console.log(this.appUser, username);
     this.username = this.username || this.appUser + username;
     this.key =
       this.key ||
