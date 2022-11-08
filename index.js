@@ -62,8 +62,8 @@ const SecurityManager = {
     // if (redirectToLogin) window.location.href = SecurityManager.logonUrl;
   },
   async getIp() {
-    const result = await Axios.get(this.ipUrl);
-    return result;
+    const { data } = await Axios.get(this.ipUrl);
+    return data;
   },
 };
 
