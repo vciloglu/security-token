@@ -2,8 +2,8 @@ const Axios = require("axios").default;
 const CryptoJS = require("crypto-js");
 const SecurityManager = {
   salt: null, // Generated at https://www.random.org/strings
-  username: null,
-  key: null,
+  username: localStorage["SecurityManager.username"] || null,
+  key: localStorage["SecurityManager.key"] || null,
   userInfo: null,
   ip: null,
   appUser: "",
